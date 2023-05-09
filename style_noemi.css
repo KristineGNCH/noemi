@@ -32,7 +32,7 @@ a {
 }
 
 header {
-	background-image: url(banner-bg.jpg);
+	background-image: url(images/banner-bg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -217,19 +217,19 @@ header::after {
 }
 
 .trend1 {
-	background-image: url(trend1.jpg);
+	background-image: url(images/trend1.jpg);
 }
 
 .trend2 {
-	background-image: url(trend2.jpg);
+	background-image: url(images/trend2.jpg);
 }
 
 .trend3 {
-	background-image: url(trend3.jpg);
+	background-image: url(images/trend3.jpg);
 }
 
 .trend4 {
-	background-image: url(trend4.jpg);
+	background-image: url(images/trend4.jpg);
 }
 
 .trend1::before,
@@ -502,7 +502,7 @@ header::after {
 	height: 49px;
 	padding-right: 49px;
 	background-color: #b59f5b;
-	background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/search.svg);
+	background-image: url(images/search.svg);
 	background-repeat: no-repeat;
 	background-size: 18px;
 	background-position: center center;
@@ -791,15 +791,15 @@ header::after {
 }
 
 .social-link-dribbble {
-	background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/001-dribbble.svg);
+	background-image: url(svg/001-dribbble.svg);
 }
 
 .social-link-pinterest {
-	background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/002-pinterest.svg);
+	background-image: url(svg/002-pinterest.svg);
 }
 
 .social-link-tumblr {
-	background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg);
+	background-image: url(svg/003-tumblr.svg);
 }
 
 .social-link-text {
@@ -874,7 +874,7 @@ header::after {
 	width: 20px;
 	height: 20px;
 	margin-bottom: 10px;
-	background: url(form-x.svg) no-repeat center center transparent;
+	background: url(svg/form-x.svg) no-repeat center center transparent;
 	border: none;
 	z-index: 9999;
 }
@@ -922,7 +922,7 @@ select {
 	padding-right: 25px;
 	margin: 0;
 	background-color: #f3f7f6;
-	background-image: url(form-arrows.svg);
+	background-image: url(svg/form-arrows.svg);
 	background-repeat: no-repeat;
 	background-position: right 1% center;
 	background-size: 13px;
@@ -947,12 +947,12 @@ select {
 	margin-right: 8px;
 	width: 15px;
 	height: 15px;
-	background: url(form-empty-circle.svg) no-repeat center center;
+	background: url(svg/form-empty-circle.svg) no-repeat center center;
 	background-size: contain;
 }
 
 .radio:checked ~ .radio-container::before {
-	background: url(form-circle.svg);
+	background: url(svg/form-circle.svg);
 	background-size: contain;
 }
 
@@ -976,7 +976,7 @@ select {
 @media (min-width:641px) and (max-width:1199px) {
 	@media (orientation:landscape) {
 		header {
-			background-image: url(banner-bg-tablet.jpg);
+			background-image: url(images/banner-bg-tablet.jpg);
 		}
 
 		.menu {
@@ -1098,7 +1098,7 @@ select {
 		}
 
 		header {
-			background-image: url(banner-bg-tablet.jpg);
+			background-image: url(images/banner-bg-tablet.jpg);
 		}
 
 		.menu {
@@ -1208,7 +1208,7 @@ select {
 @media (max-width:641px) {
 	@media (orientation:landscape) {
 		.header {
-			background-image: url(banner-mobile.jpg);
+			background-image: url(images/banner-mobile.jpg);
 			display: flex;
 			flex-direction: column;
 			min-height: 640px;
@@ -1320,7 +1320,7 @@ select {
 		}
 
 		header {
-			background-image: url(banner-mobile.jpg);
+			background-image: url(images/banner-mobile.jpg);
 			display: flex;
 			flex-direction: column;
 			min-height: 640px;
