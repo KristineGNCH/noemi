@@ -70,9 +70,7 @@ header::after {
 }
 
 .logo {
-	display: block;
 	min-width: 179px;
-	min-height: 41px;
 	position: relative;
 	z-index: 2;
 }
@@ -109,7 +107,7 @@ header::after {
 	margin-top: 140px;
 	max-width: 679px;
 	z-index: 2;
-	font-family: "" OpenSans"";
+	font-family: "OpenSans";
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 45px;
@@ -131,7 +129,7 @@ header::after {
 
 .trand-title {
 	display: block;
-	font-family: "" OpenSans"", sans-serif;
+	font-family: "OpenSans", sans-serif;
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 30px;
@@ -154,7 +152,7 @@ header::after {
 	display: flex;
 	flex-direction: column;
 	width: 25%;
-	height: 319px;
+	min-height: 319px;
 	justify-content: flex-end;
 	padding: 20px 22px 14px 18px;
 	margin-right: 4px;
@@ -170,7 +168,7 @@ header::after {
 }
 
 .trend-link {
-	font-family: "" OpenSans"";
+	font-family: "OpenSans";
 	font-weight: 700;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -201,17 +199,14 @@ header::after {
 	text-transform: uppercase;
 	color: #fff;
 	font-weight: 700;
-	font-family: "" OpenSans"";
+	font-family: "OpenSans";
 }
 
 .trend-title:hover {
 	color: #b59f5b;
 }
 
-.trend1,
-.trend2,
-.trend3,
-.trend4 {
+.trend1, .trend2, .trend3, .trend4 {
 	position: relative;
 	background-size: cover;
 }
@@ -256,8 +251,6 @@ header::after {
 }
 
 .post-content {
-	width: 367px;
-	height: 62px;
 	font-size: 15px;
 	line-height: 22px;
 	color: #0f0d0e;
@@ -289,13 +282,6 @@ header::after {
 
 .post-item:nth-child(n+2) {
 	margin-top: 60px;
-}
-
-.post-container {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	min-width: 365px;
 }
 
 .post-category {
@@ -361,20 +347,12 @@ header::after {
 }
 
 .sidebar {
-	height: 1424px;
 	width: 272px;
 	margin-left: 120px;
 	padding-right: 15px;
 }
 
-.category-title,
-.h2,
-.latest-post-title,
-.product-list-title,
-.subscription-title,
-.tag-title,
-.trands-title,
-.feedback-tittle {
+.category-title, .h2, .latest-post-title, .product-list-title, .subscription-title, .tag-title, .trands-title, .feedback-tittle {
 	display: block;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -386,14 +364,7 @@ header::after {
 	text-align: center;
 }
 
-.category-title:after,
-.h2:after,
-.latest-post-title::after,
-.product-list-title:after,
-.subscription-title:after,
-.tag-title:after,
-.trands-title:after,
-.feedback-tittle:after {
+.category-title:after, .h2:after, .latest-post-title::after, .product-list-title:after, .subscription-title:after, .tag-title:after, .trands-title:after, .feedback-tittle:after {
 	content: "";
 	display: block;
 	position: relative;
@@ -409,8 +380,6 @@ header::after {
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-between;
-	width: 272px;
-	height: 70px;
 }
 
 .latest-post-image {
@@ -473,8 +442,6 @@ header::after {
 	display: flex;
 	margin-top: 60px;
 	margin-bottom: 60px;
-	width: 271px;
-	height: 49px;
 }
 
 .search-input:focus {
@@ -521,7 +488,7 @@ header::after {
 }
 
 .subscription-input {
-	width: 270px;
+	width: 100%;
 	height: 48px;
 	margin-bottom: 17px;
 	background-color: #f4f7f6;
@@ -533,6 +500,7 @@ header::after {
 	line-height: 40px;
 	color: #000;
 	padding-left: 18px;
+	padding-right: 18px;
 }
 
 .subscription-input:focus {
@@ -541,7 +509,7 @@ header::after {
 
 .subscription-button,
 .btn-feedback {
-	width: 270px;
+	width: 100%;
 	height: 48px;
 	background-color: #b59f5b;
 	border: none;
@@ -572,8 +540,6 @@ header::after {
 
 .tags {
 	margin-top: 60px;
-	height: 153px;
-	width: 263px;
 }
 
 .tag {
@@ -585,14 +551,12 @@ header::after {
 }
 
 .tag-item {
-	max-height: 30px;
 	margin: 3px;
 }
 
 .tag-link {
 	display: flex;
 	padding: 6px 12px;
-	height: 10px;
 	width: auto;
 	font-family: "OpenSans";
 	font-weight: 700;
@@ -609,7 +573,6 @@ header::after {
 }
 
 .categories {
-	height: 321px;
 	margin-top: 60px;
 }
 
@@ -618,13 +581,11 @@ header::after {
 }
 
 .category-item {
-	width: 271px;
 	text-decoration: none;
 	list-style-type: none;
 	font-family: "OpenSans";
 	font-weight: 700;
 	font-size: 14px;
-	line-height: 47px;
 	color: #000;
 	border-bottom: 1px solid #eee;
 }
@@ -646,7 +607,6 @@ header::after {
 }
 
 .sub {
-	height: 10px;
 	width: 20px;
 	margin-left: 5px;
 	vertical-align: super;
@@ -764,12 +724,13 @@ header::after {
 }
 
 .social {
-	height: 80px;
 	min-width: 1200px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: #f4f7f6;
+	padding-top: 30px;
+   	padding-bottom: 30px;
 }
 
 .social-widget {
@@ -1079,8 +1040,9 @@ select {
 		}
 
 		.social {
-			width: 90%;
-			min-width: 641px;
+			max-width: 1200px;
+			min-width: 768px;
+			margin-top: 30px;
 		}
 
 		.popup {
@@ -1193,6 +1155,7 @@ select {
 		.social {
 			max-width: 1200px;
 			min-width: 768px;
+			margin-top: 30px;
 		}
 
 		.popup {
