@@ -32,7 +32,7 @@ a {
 }
 
 header {
-	background-image: url(banner-bg.jpg);
+	background-image: url(images/banner-bg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -107,7 +107,7 @@ header::after {
 	margin-top: 140px;
 	max-width: 679px;
 	z-index: 2;
-	font-family: "" OpenSans"";
+	font-family: "OpenSans";
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 45px;
@@ -129,7 +129,7 @@ header::after {
 
 .trand-title {
 	display: block;
-	font-family: "" OpenSans"", sans-serif;
+	font-family: "OpenSans", sans-serif;
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 30px;
@@ -168,7 +168,7 @@ header::after {
 }
 
 .trend-link {
-	font-family: "" OpenSans"";
+	font-family: "OpenSans";
 	font-weight: 700;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -199,7 +199,7 @@ header::after {
 	text-transform: uppercase;
 	color: #fff;
 	font-weight: 700;
-	font-family: "" OpenSans"";
+	font-family: "OpenSans";
 }
 
 .trend-title:hover {
@@ -473,6 +473,7 @@ header::after {
 	font-size: 13px;
 	line-height: 40px;
 	padding-left: 18px;
+	padding-right: 18px;
 	border: none;
 }
 
