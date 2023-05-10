@@ -502,7 +502,7 @@ header::after {
 	height: 49px;
 	padding-right: 49px;
 	background-color: #b59f5b;
-	background-image: url(images/search.svg);
+	background-image: url(svg/search.svg);
 	background-repeat: no-repeat;
 	background-size: 18px;
 	background-position: center center;
