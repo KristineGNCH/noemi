@@ -940,19 +940,21 @@ select {
 	margin-right: 15px;
 }
 
-.radio-container:before {
+.yes:before,
+.no::before {
 	content: "";
 	display: inline-block;
 	vertical-align: middle;
 	margin-right: 8px;
 	width: 15px;
 	height: 15px;
-	background: url(svg/form-empty-circle.svg) no-repeat center center;
+	background: url(form-empty-circle.svg) no-repeat center center;
 	background-size: contain;
 }
 
-.radio:checked ~ .radio-container::before {
-	background: url(svg/form-circle.svg);
+.radio:checked ~ .yes::before,
+.radio:checked ~.no::before  {
+	background: url(form-circle.svg);
 	background-size: contain;
 }
 
