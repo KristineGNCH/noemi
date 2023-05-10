@@ -38,7 +38,6 @@ header {
 	background-position: center center;
 	position: relative;
 	background-color: #000;
-	min-height: 450px;
 	text-transform: uppercase;
 	color: #fff;
 	margin: 0 auto 57px auto;
@@ -54,19 +53,19 @@ header::after {
 	bottom: 0;
 	background-color: #000;
 	opacity: .6;
-	min-height: 450px;
 	min-width: auto;
 }
 
 .head {
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-	position: absolute;
+	position: relative;
 	align-items: center;
 	justify-content: space-between;
 	margin: 0 auto 55px auto;
-	padding: 26px 15px 0 15px;
-	position: relative;
+	padding: 0 15px 0 15px;
+	z-index: 9999;
 }
 
 .logo {
