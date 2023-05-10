@@ -1321,9 +1321,9 @@ select {
 		}
 
 		.logo {
-			z-index: 1;
 			width: 80%;
-			margin: 0 auto;
+			margin: 0 auto auto 50px;
+			
 		}
 
 		.title {
