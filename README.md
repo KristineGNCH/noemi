@@ -1,7 +1,7 @@
 ____
 
 # **Вёрстка макета блога [Noemi]**
-[Noemi]:  http://127.0.0.1:5500/Diplom%20Noemi%20GNCH.html 
+[Noemi]:  https://kristinegnch.github.io/noemi/
 
 Вёрстка реализована в рамках практического задания образовательной платформы [Нетология](https://netology.ru/).
 
