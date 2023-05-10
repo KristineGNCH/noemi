@@ -1251,7 +1251,7 @@ select {
 		}
 
 		.sidebar {
-			width: 100vw;
+			width: 100%;
 			margin-top: 70px;
 		}
 
@@ -1332,6 +1332,7 @@ select {
 			justify-content: space-around;
 			min-width: 320px;
 			width: 100%;
+			padding-left: 15px;
 		}
 
 		.menu {
@@ -1421,7 +1422,7 @@ select {
 		}
 
 		.sidebar {
-			width: 100vw;
+			width: 100%;
 			margin-top: 70px;
 		}
 
