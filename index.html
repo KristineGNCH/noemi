@@ -326,18 +326,18 @@
 
       <section>
         <form class="search">
-          <input class="search-input" placeholder="Найти..." type="search">
-          <label class="visually-hidden" for="search-input">поле для ввода поиска информации</label>
+          <input id="search-input" class="search-input" placeholder="Найти..." type="search">
+          <label id="search-input" class="visually-hidden" for="search-input">поле для ввода поиска информации</label>
           <button class="button-search" type="submit">
-            <span class="visually-hidden" for="button-search">кнопка поиска</span>
+            <span class="visually-hidden">кнопка поиска</span>
           </button>
         </form>
       </section>
       <section>
         <div class="subscription">
           <h2 class="subscription-title">Рассылка</h2>
-          <input class="subscription-input" type="email" placeholder="Ваш email-адрес" required>
-          <label class="visually-hidden" for="subscription-input">поле для ввода почтового ящика</label>
+          <input id="subscription-input" class="subscription-input" type="email" placeholder="Ваш email-адрес" required>
+          <label id="subscription-input" class="visually-hidden" for="subscription-input">поле для ввода почтового ящика</label>
           <button type="submit" class="subscription-button">Подписаться</button>
         </div>
       </section>
@@ -399,7 +399,9 @@
       </picture>
       <div class="product-info">
         <div class="product-content">
-          <h3 class="product-title" href="#">Подушки на диван</h3>
+          <h3 class="product-title">
+            <a href="#">Подушки на диван</a>
+              </h3>
           <span class="product-description">Набор из двух подушек с модными принтами. Видео о создании <a
               class="product-details-link" href="#">здесь</a>.</span>
         </div>
@@ -428,7 +430,9 @@
       </picture>
       <div class="product-info">
         <div class="product-content">
-          <h3 class="product-title" href="#">Кукла "Зайчик"</h3>
+          <h3 class="product-title">
+            <a href="#">Кукла "Зайчик"</a>
+          </h3>
           <span class="product-description">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a
               class="product-details-link" href="#">весенняя серия постов</a> в блоге и несколько подкастов.</span>
         </div>
@@ -453,7 +457,9 @@
       </picture>
       <div class="product-info">
         <div class="product-content">
-          <h3 class="product-title" href="#">Шестиугольная рамка</h3>
+          <h3 class="product-title"> 
+            <a href="#">Шестиугольная рамка</a>
+          </h3>
           <span class="product-description">Необычная рамка для украшения дома из видео<a class="product-details-link"
               href="#">"Как сделать рамку из подручных средств за 30 минут"</a></span>
         </div>
@@ -514,7 +520,7 @@
         <form class="feedback">
           <h2 class="feedback-tittle">Ваш фидбек</h2>
           <div class="feedback-question">
-            <span for="q1" class="question">Как часто вы заходите на сайт?</span>
+            <span class="question">Как часто вы заходите на сайт?</span>
             <select id="q1" class="select-q1">
               <option value="Daily" selected>Почти каждый день</option>
               <option value="Weekly">Раз в неделю</option>
@@ -524,7 +530,7 @@
           </div>
 
           <div class="feedback-question">
-            <span for="q2" class="question">Вы подписаны на email-рассылку?</span>
+            <span class="question">Вы подписаны на email-рассылку?</span>
             <div>
               <label for="yes" class="radio-container">
                 <input id="yes" type="radio" class="radio" name="q2" required>
@@ -538,7 +544,7 @@
           </div>
 
           <div class="feedback-question">
-            <span for="q3" class="question">Расскажите, какой контент вы хотели бы видеть на нашем сайт?</span>
+            <span class="question">Расскажите, какой контент вы хотели бы видеть на нашем сайт?</span>
             <textarea id="q3" class="feedback-textarea" placeholder="Может, больше рецептов?" required></textarea>
           </div>
           <div class="btn-feedback-submit">
