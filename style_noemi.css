@@ -379,7 +379,6 @@ header::after {
 .latest-post-item {
 	display: flex;
 	align-items: flex-start;
-	justify-content: space-between;
 }
 
 .latest-post-image {
@@ -391,10 +390,6 @@ header::after {
 }
 
 .latest-post-container {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: flex-start;
-	justify-content: flex-start;
 	margin-top: -4px;
 	margin-left: 4px;
 }
