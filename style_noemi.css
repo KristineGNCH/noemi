@@ -1051,6 +1051,7 @@ select {
 
 		.product {
 			margin-bottom: 80px;
+			margin-right: 0;
 		}
 
 		.footer {
