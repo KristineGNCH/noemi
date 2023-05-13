@@ -60,6 +60,7 @@ header::after {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	position: relative;
 	align-items: center;
 	justify-content: space-between;
@@ -559,7 +560,6 @@ header::after {
 	display: flex;
 	flex-wrap: wrap;
 	list-style-type: none;
-	width: 263px;
 	flex-direction: row;
 }
 
@@ -646,6 +646,8 @@ header::after {
 }
 
 .product-info {
+	margin-left: 10px;
+    	margin-right: 10px;
 	padding-top: 25px;
 	outline: 2px solid #d3c59d;
 	outline-offset: 20px;
@@ -956,6 +958,7 @@ select {
 	@media (orientation:landscape) {
 		header {
 			background-image: url(images/banner-bg-tablet.jpg);
+			padding-bottom: 117px;
 		}
 
 		.menu {
@@ -973,7 +976,11 @@ select {
 			height: 23px;
 			background-size: cover;
 		}
-
+		
+		.tittle {
+	   		margin-top: 95px;
+		}
+		
 		.trends {
 			height: auto;
 		}
@@ -1037,12 +1044,13 @@ select {
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: space-between;
-			width: 90%;
-			margin: 0 0 50px 35px;
+			width: calc(100% - 35px);
+			padding-left: 15px;
+  			padding-right: 15px;
 		}
 
 		.product {
-			margin: 50px 80px 0 80px;
+			margin-bottom: 80px;
 		}
 
 		.footer {
@@ -1156,7 +1164,7 @@ select {
 		}
 
 		.product {
-			margin-top: 50px;
+			width: calc(100% - 40px);
 		}
 
 		.footer {
@@ -1275,7 +1283,11 @@ select {
 			width: 100vw;
 			margin-top: 70px;
 		}
-
+		
+		.tags {
+			max-width: 100vw;
+		}
+		
 		.product-list-title {
 			display: flex;
 			flex-direction: column;
@@ -1320,12 +1332,7 @@ select {
 			margin: 0px auto 3px auto;
 		}
 
-		.logo {
-			width: 80%;
-			margin: 0 auto auto 50px;
-			
-		}
-
+		
 		.title {
 			width: 75%;
 			font-size: 26px;
@@ -1434,14 +1441,12 @@ select {
 		}
 
 		.post-content {
-			width: 392px;
 			height: 76px;
 			font-size: 15px;
 			line-height: 22px;
 		}
 
 		.post-text {
-			width: 76%;
 			padding-bottom: 25px;
 			border-bottom: 4px solid #eeeeee;
 		}
