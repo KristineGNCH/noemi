@@ -1027,7 +1027,7 @@ select {
 		.main-content {
 			display: flex;
 			justify-content: space-around;
-			margin: 50px 35px 50px 35px;
+			margin: 0 35px 50px 35px;
 		}
 
 		.post {
@@ -1206,13 +1206,29 @@ select {
 
 		.product-list {
 			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
-			margin: 50px auto 50px 30px;
+			flex-direction: column;
+			width: 100%;
+			height: 100%;
+			padding: 0;
+			margin: 0;
 		}
 
 		.product {
-			width: calc(100% - 40px);
+			width: 75%;
+			margin-left: 40px;
+			margin-right: 40px;
+		}
+
+		.product:not(:first-child) {
+			margin-top: 50px;
+		}
+
+		.product-list-title {
+			padding: 45px 0 45px 0;
+		}
+
+		.product-image {
+			width: 100%;
 		}
 
 		.footer {
@@ -1225,9 +1241,7 @@ select {
 		}
 
 		.social {
-			max-width: 1200px;
-			min-width: 768px;
-			margin-top: 30px;
+			margin-top: 80px;
 		}
 
 		.popup {
