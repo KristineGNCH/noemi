@@ -116,7 +116,7 @@ header::after {
 	text-align: center;
 }
 
-.menu-mobile-btn {
+.menu-mobile-container {
 	display: none;
 }
 
@@ -965,16 +965,39 @@ select {
 			display: none;
 		}
 
-		.menu-mobile-btn {
+		.menu-mobile-container {
 			display: block;
 			z-index: 2;
 		}
 
-		.menu-burger {
-			background: url(svg/menu-burger-svgrepo-com.svg);
-			width: 23px;
-			height: 23px;
-			background-size: cover;
+		#menu-mobile-toggle {
+			opacity: 0;
+		}
+
+		.menu-mobile {
+			display: flex;
+			align-items: center;
+			top: 23px;
+			right: 35px;
+			cursor: pointer;
+			z-index: 1;
+		}
+
+		.menu-mobile, .menu-mobile::before, .menu-mobile::after {
+			position: absolute;
+			width: 21px;
+			height: 2px;
+			background-color: #f9ffff;
+		}
+
+		.menu-mobile::before {
+			content: "";
+			top: -8px;
+		}
+
+		.menu-mobile::after {
+			content: "";
+			top: 8px;
 		}
 		
 		.tittle {
@@ -1094,15 +1117,39 @@ select {
 			display: none;
 		}
 
-		.menu-mobile-btn {
+		.menu-mobile-container {
 			display: block;
+			z-index: 2;
 		}
 
-		.menu-burger {
-			background: url(svg/menu-burger-svgrepo-com.svg);
-			width: 23px;
-			height: 23px;
-			background-size: cover;
+		#menu-mobile-toggle {
+			opacity: 0;
+		}
+
+		.menu-mobile {
+			display: flex;
+			align-items: center;
+			top: 22px;
+			right: 35px;
+			cursor: pointer;
+			z-index: 1;
+		}
+
+		.menu-mobile, .menu-mobile::before, .menu-mobile::after {
+			position: absolute;
+			width: 21px;
+			height: 2px;
+			background-color: #f9ffff;
+		}
+
+		.menu-mobile::before {
+			content: "";
+			top: -8px;
+		}
+
+		.menu-mobile::after {
+			content: "";
+			top: 8px;
 		}
 
 		.trends {
@@ -1216,15 +1263,39 @@ select {
 			display: none;
 		}
 
-		.menu-mobile-btn {
+		.menu-mobile-container {
 			display: block;
+			z-index: 2;
 		}
 
-		.menu-burger {
-			background: url(svg/menu-burger-svgrepo-com.svg);
-			width: 23px;
-			height: 23px;
-			background-size: cover;
+		#menu-mobile-toggle {
+			opacity: 0;
+		}
+
+		.menu-mobile {
+			display: flex;
+			align-items: center;
+			top: 22px;
+			right: 35px;
+			cursor: pointer;
+			z-index: 1;
+		}
+
+		.menu-mobile, .menu-mobile::before, .menu-mobile::after {
+			position: absolute;
+			width: 21px;
+			height: 2px;
+			background-color: #f9ffff;
+		}
+
+		.menu-mobile::before {
+			content: "";
+			top: -8px;
+		}
+
+		.menu-mobile::after {
+			content: "";
+			top: 8px;
 		}
 
 		.in-trend-container {
@@ -1331,6 +1402,7 @@ select {
 			width: 100%;
 			padding: 167px 15px 0px 15px;
 			margin: 0px auto 3px auto;
+			justify-content: center;
 		}
 
 		
@@ -1345,19 +1417,39 @@ select {
 			display: none;
 		}
 
-		.menu-mobile-btn {
-			display: flex;
-			position: absolute;
+		.menu-mobile-container {
+			display: block;
 			z-index: 2;
-			top: 45px;
-			right: 5%;
 		}
 
-		.menu-burger {
-			background: url(svg/menu-burger-svgrepo-com.svg);
-			width: 23px;
-			height: 23px;
-			background-size: cover;
+		#menu-mobile-toggle {
+			opacity: 0;
+		}
+
+		.menu-mobile {
+			display: flex;
+			align-items: center;
+			top: 22px;
+			right: 35px;
+			cursor: pointer;
+			z-index: 1;
+		}
+
+		.menu-mobile, .menu-mobile::before, .menu-mobile::after {
+			position: absolute;
+			width: 21px;
+			height: 2px;
+			background-color: #f9ffff;
+		}
+
+		.menu-mobile::before {
+			content: "";
+			top: -8px;
+		}
+
+		.menu-mobile::after {
+			content: "";
+			top: 8px;
 		}
 
 		.main-content {
